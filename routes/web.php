@@ -5,29 +5,32 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
+    return Inertia::render('Welcome/Index');
 });
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+// Administration
+Route::prefix('administration')->name('administration.')->group(function () {
+    Route::get('/alf', function () {
+        return Inertia::render('Administration/Alf/Index');
+    })->name('alf');
+
+    Route::get('/board_trustees', function(){
+        return Inertia::render('Administration/Board/Index');
+    })->name('board_trustees');
+
+    Route::get('/admin_staff', function(){
+        return Inertia::render('Administration/AdminStaff/Index');
+    })->name('admin_staff');
+
+    Route::get('/departments/itc', function(){
+        return Inertia::render('Administration/Departments/Offices/Itc/Index');
+    })->name('departments.itc');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

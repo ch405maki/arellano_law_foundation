@@ -1,21 +1,20 @@
 <template>
-    <header class="bg-official-purple-800">
+    <header class="fixed top-0 left-0 w-full bg-official-purple-800 z-10">
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-12 items-center justify-between">
         <div class="flex-1 md:flex md:items-center md:gap-12">
             <div class="flex items-center gap-4">
-                <a class="block text-teal-600" href="#">
+                <a class="block text-teal-600" href="/">
                     <ApplicationLogo class="h-8"/>
                 </a>
-                <h1 class="garamond text-lg text-white uppercase font-medium">Arellano Law Foundation</h1>
+                <h1 class="font-times text-sm md:text-base lg:text-lg xl:text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#FFC400] uppercase font-medium">Arellano Law Fovndation</h1>            </div>
             </div>
-        </div>
 
         <div class="md:flex md:items-center md:gap-12">
         <nav aria-label="Global" class="hidden md:block">
             <ul class="flex items-center gap-6 text-sm">
-                <li><a class="text-white transition hover:text-official-purple-200" href="#"> Home </a></li>
-                <li><a class="text-white transition hover:text-official-purple-200" href="#"> About </a></li>
+                <li><a class="text-white transition hover:text-official-purple-200" href="/"> Home </a></li>
+                <li><a :href="route ('administration.alf')" class="text-white transition hover:text-official-purple-200" href="#"> About </a></li>
                 <Administration/>
                 <Programs/>
             </ul>
@@ -42,18 +41,19 @@
     
     <!-- Page Content -->
     <main>
-        <div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-
+        <div class="mt-[48px]">
             <slot />
         </div>
     </main>
 
+    <Footer />
 </template>
 
 <script setup>
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Administration from './Partials/Buttons/Administration.vue';
 import Programs from './Partials/Buttons/Programs.vue';
+import Footer from './Partials/Footer/Index.vue';
 </script>
 
 <style scoped>
