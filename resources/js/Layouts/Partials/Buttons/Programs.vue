@@ -12,19 +12,16 @@
     </button>
     <ul class="bg-white border rounded-md shadow-lg transform scale-0 group-hover:scale-100 absolute transition duration-300 ease-in-out origin-top min-w-52 mt-2">
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
+        <a  href="https://alf2.arellanolaw.edu/academic/barreview" target="_blank" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Bar Review</a>
+    </li>
+    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
         <a href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">CLEP</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">CLEAR</a>
+        <a  href="https://alf2.arellanolaw.edu/academic/mcle" target="_blank" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">MCLE</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">MCLE</a>
-    </li>
-    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">OLA</a>
-    </li>
-    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">LawPhil</a>
+        <a  href="https://lawphil.net/" target='_blank' class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">LawPhil</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
         <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Phoenix</a>

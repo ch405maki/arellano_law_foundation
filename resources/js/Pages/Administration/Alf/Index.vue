@@ -19,7 +19,7 @@
                             The Arellano Law Foundation is a non-profit, non-stock organization established by alumni and faculty members of Arellano University for contributing to the upgrading of standards of the legal proffession and to the efficient, fair, and honest administration of justice.
                             <br>
                             <br>
-                            Its major project in the attainment of this objective is the operation of Arellano Law School.
+                            Its major project in the attainment of this objective is the operation of Arellano University School of Law.
                         </h2>
                     </blockquote>
                     </div>
