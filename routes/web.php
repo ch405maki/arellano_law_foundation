@@ -27,9 +27,17 @@ Route::prefix('administration')->name('administration.')->group(function () {
         return Inertia::render('Administration/AdminStaff/Index');
     })->name('admin_staff');
 
-    Route::get('/departments/itc', function(){
-        return Inertia::render('Administration/Departments/Offices/Itc/Index');
-    })->name('departments.itc');
+    Route::get('/clear', function(){
+        return Inertia::render('Administration/Departments/Index', [
+            'departmentName' => 'CLEAR',
+        ]);
+    })->name('clear');
+    
+    Route::get('/ola', function(){
+        return Inertia::render('Administration/Departments/Index', [
+            'departmentName' => 'OLA',
+        ]);
+    })->name('ola');
 });
 
 Route::middleware('auth')->group(function () {

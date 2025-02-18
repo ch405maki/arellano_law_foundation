@@ -18,6 +18,15 @@
                     <div class="overlay"></div>
                     </div>
                 </a>
+                <div class="p-4 flex-grow flex flex-col justify-between min-h-[100px]">
+                  <!-- Title with flex-grow to push the date down -->
+                  <a
+                    href=""
+                    class="font-semibold text-lg text-left text-official-purple-900 hover:underline cursor-pointer line-clamp-2 flex-grow"
+                  >{{ post.title }}</a>
+                  <!-- Date that stays at the bottom -->
+                  <p class="text-gray-700 text-left mt-auto">{{ new Date(post.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</p>
+                </div>
                 </div>
                 </div>
             </div>
@@ -31,9 +40,12 @@
   import { ref, onMounted } from 'vue';
   
   const posts = [
-    {
-        image: '/images/news/news1.jpg'
-    }
+      {
+        title: 'Arellano University School of Law Launches New Website',
+        image: '/images/news/news1.jpg',
+        created_at: '2024-09-04',
+      },
+    
   ]
   
   onMounted(() => {

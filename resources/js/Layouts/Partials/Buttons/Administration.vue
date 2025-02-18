@@ -20,9 +20,26 @@
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
         <a @click="$inertia.visit(route('administration.admin_staff'))" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Administration Officers</a>
     </li>
-    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Departments</a>
-    </li>
+    <li class="rounded-md relative px-2 py-2 transition duration-150 ease-in-out">
+            <button class="w-full text-left flex items-center outline-none focus:outline-none">
+            <span class="pr-1 flex-1 block w-full text-left text-gray-600 hover:text-slate-900 font-normal">Departments</span>
+            <span class="mr-auto">
+                <svg class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+            </span>
+            </button>
+            <ul class="bg-white border rounded-md shadow-lg absolute top-0 right-0 transition duration-300 ease-in-out origin-top-left min-w-32 mt-2">
+            <li class="px-2 py-2 transition duration-150 ease-in-out">
+                <a :href="(route('administration.clear'))" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">CLEAR</a>
+            </li>
+            <li class="px-2 py-2 transition duration-150 ease-in-out">
+                <a :href="(route('administration.ola'))" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">OLA</a>
+            </li>
+            </ul>
+        </li>
     </ul>
 </div>
 </template>
@@ -33,5 +50,86 @@
 </script>
 
 <style scoped>
+    .nav-btn {
+    font-size: 0.875rem;
+    color: white;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.25rem;
+    }
 
-</style>
+    .nav-btn:hover {
+    color: #e2e8f0;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    }
+
+    .active-tab {
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    }
+
+    .main-content {
+    transition: padding-top 0.2s ease-in-out;
+    padding-top: 8rem;
+    }
+
+    .main-content-mobile {
+    padding-top: 3rem;
+    }
+
+    @media (max-width: 1024px) {
+    .nav-btn {
+        font-size: 0.75rem;
+        padding: 0.375rem 0.5rem;
+        margin-right: 0.125rem;
+    }
+    }
+
+    @media (max-width: 768px) {
+    .nav-btn {
+        font-size: 0.625rem;
+        padding: 0.25rem 0.375rem;
+        margin-right: 0.0625rem;
+    }
+    }
+
+    .second-nav {
+    top: 0 !important;
+    }
+
+    li>ul {
+    transform: translatex(100%) scale(0);
+    }
+
+    li:hover>ul {
+    transform: translatex(101%) scale(1);
+    }
+
+    li>button svg {
+    transform: rotate(-90deg);
+    }
+
+    li:hover>button svg {
+    transform: rotate(-270deg);
+    }
+
+    .group:hover .group-hover\:scale-100 {
+    transform: scale(1);
+    }
+
+    .group:hover .group-hover\:-rotate-180 {
+    transform: rotate(180deg);
+    }
+
+    .scale-0 {
+    transform: scale(0);
+    }
+
+    .min-w-32 {
+    min-width: 8rem;
+    }
+    </style>

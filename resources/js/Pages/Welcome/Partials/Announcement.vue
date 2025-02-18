@@ -8,7 +8,7 @@
         <ul class=" divide-y divide-gray-200">
             <li class="px-6 py-4" v-for="announcement in announcements">
                 <div class="flex justify-between">
-                    <span class="font-semibold text-lg">{{ announcement.title }}</span>
+                    <a href=""><span class="font-semibold text-lg hover:text-official-purple-950 hover:underline">{{ announcement.title }}</span></a>
                     <span class="text-gray-500 text-xs">Posted: {{ announcement.datePosted }}</span>
                 </div>
                 <p class="text-gray-700">{{ announcement.content }}</p>
