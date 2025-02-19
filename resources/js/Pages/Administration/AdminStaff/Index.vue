@@ -85,7 +85,10 @@
     { role: 'Director, Guidance Office', name: 'Arnulfo V. Lopez' },
     { role: 'Chief Librarian', name: 'Edna L. Pareño' },
     { role: 'Director, The Lawphil Project', name: 'Philipp S. Bautista' },
-  ];
+    { role: 'HR Supervisor', name: 'Baby Amy R. Montelegre' },
+    { role: 'Purchasing Head/Officer', name: 'Eduardo C. Villavicencio' },
+    { role: 'AV Supervisor', name: 'Erickson R.Ocampo' },
+  ];  
     
     const isMobile = reactive({ value: window.innerWidth <= 768 });
     

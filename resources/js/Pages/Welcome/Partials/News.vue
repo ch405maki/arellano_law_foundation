@@ -21,7 +21,7 @@
                 <div class="p-4 flex-grow flex flex-col justify-between min-h-[100px]">
                   <!-- Title with flex-grow to push the date down -->
                   <a
-                    href=""
+                    :href="post.link"
                     class="font-semibold text-lg text-left text-official-purple-900 hover:underline cursor-pointer line-clamp-2 flex-grow"
                   >{{ post.title }}</a>
                   <!-- Date that stays at the bottom -->
@@ -41,11 +41,22 @@
   
   const posts = [
       {
-        title: 'Arellano University School of Law Launches New Website',
+        title: 'Bipsu Benchmarking Activity',
         image: '/images/news/news1.jpg',
         created_at: '2024-09-04',
       },
-    
+      {
+        title: 'Bar Review Program',
+        image: '/images/programs/bar_review.jpg',
+        link: 'programs/bar',
+        created_at: '2024-09-04',
+      },
+      {
+        title: 'LawPhil',
+        image: '/images/programs/lawphil.jpg',
+        link: 'https://www.lawphil.net',
+        created_at: '2024-09-04',
+      },
   ]
   
   onMounted(() => {

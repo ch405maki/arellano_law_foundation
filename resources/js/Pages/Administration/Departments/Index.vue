@@ -1,9 +1,10 @@
 <template>
   <MainLayout>
-    <Header>{{ departmentName }} Department</Header>
+    <Header v-if="departmentName != 'Information Technology Center'">{{ departmentName }} Department</Header>
+    <Header v-else>{{ departmentName }}</Header>
     <Head title="Departments" />
     <main class="flex-grow">
-      <div class="max-w-6xl mx-auto px-4 py-4 lg:py-8">
+      <div class="max-w-6xl mx-auto px-8 py-4 lg:py-8">
         <div class="flex flex-col md:flex-row justify-between gap-8">
           <!-- Main content section -->
           <section class="w-full md:w-3/4 relative">
@@ -21,9 +22,20 @@
           <aside class="w-full md:w-1/4 sticky top-0">
           <div class="mb-8 sm:mt-4 md:mt-8 lg:mt-10 xl:mt-12">
               <div class="ml-4">
+                <div class="relative  mb-2 flex flex-col items-center">
+                  <div class="w-full mb-4">
+                    <img
+                      :src="`/images/offices/${ departmentName }.jpg`"
+                      alt="Office Image"
+                      class="object-cover w-full rounded-lg hover:cursor-zoom-in"
+                      onerror="this.src='/images/logo/alfLogo.png'"
+                    />
+                  </div>
+                </div>
               <h2 class="mb-4 text-sm md:text-base lg:text-lg xl:text-lg leading-6 font-medium text-official-purple-900 capitalize">On this page</h2>
               <hr class="mb-4 border-1 border-official-purple-800">
-                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8">{{ departmentName }} Department</h3>
+                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-if="departmentName != 'Information Technology Center'">{{ departmentName }} Department</h3>
+                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-else >{{ departmentName }}</h3>
               </div>
               <div class="ml-4">
               <h2 class="text-official-purple-900 text-sm md:text-base lg:text-lg xl:text-lg font-medium mb-4">Related Links</h2>

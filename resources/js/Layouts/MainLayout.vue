@@ -17,6 +17,7 @@
                 <li><a :href="route ('administration.alf')" class="text-white transition hover:text-official-purple-200" href="#"> About </a></li>
                 <Administration/>
                 <Programs/>
+                <li><a :href="route ('contact')" class="text-white transition hover:text-official-purple-200" href="#"> Contact Us </a></li>
             </ul>
         </nav>
 

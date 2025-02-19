@@ -32,12 +32,9 @@
             </span>
             </button>
             <ul class="bg-white border rounded-md shadow-lg absolute top-0 right-0 transition duration-300 ease-in-out origin-top-left min-w-32 mt-2">
-            <li class="px-2 py-2 transition duration-150 ease-in-out">
-                <a :href="(route('administration.clear'))" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">CLEAR</a>
-            </li>
-            <li class="px-2 py-2 transition duration-150 ease-in-out">
-                <a :href="(route('administration.ola'))" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">OLA</a>
-            </li>
+                <li v-for="(department, index) in departments" :key="index" class="px-2 py-2 transition duration-150 ease-in-out">
+                    <a :href="department.route" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">{{ department.name }}</a>
+                </li>
             </ul>
         </li>
     </ul>
@@ -47,6 +44,18 @@
 <script setup>
     import { ref, onMounted } from 'vue';
     import { usePage } from '@inertiajs/vue3';
+
+    const departments = ref([
+        { name: 'Accounting', route: route('administration.accounting')},
+        { name: 'Auditing', route: route('administration.auditing')},
+        { name: 'CLEAR', route: route('administration.clear')},
+        { name: 'Human Resources', route: route('administration.hr')},
+        { name: 'Information Technology Center', route: route('administration.itc')},
+        { name: 'LawPhil', route: route('administration.lawphil')},
+        { name: 'OLA', route: route('administration.ola')},
+        { name: 'Purchasing', route: route('administration.purchasing')},
+    ]);
+
 </script>
 
 <style scoped>

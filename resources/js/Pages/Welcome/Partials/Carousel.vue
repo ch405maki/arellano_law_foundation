@@ -26,7 +26,7 @@
 <script setup>
 import { ref, onMounted, nextTick } from 'vue';
 
-const items = ['/images/carousel/image1.jpg', '/images/carousel/image2.jpg'];
+const items = ['/images/carousel/image1.jpg', '/images/carousel/image2.jpg', '/images/carousel/image3.png'];
 
 const fotoramaContainer = ref(null);
 
