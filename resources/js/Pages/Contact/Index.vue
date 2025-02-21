@@ -46,17 +46,6 @@
                           </span>
                         </td>
                       </tr>
-                      <tr class="border-b border-t">
-                        <td class="py-2 text-gray-600">
-                          Fax Number
-                        </td>
-                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 italic flex items-center">
-                          <i class="mdi mdi-printer mr-1"></i> <!-- MDI Fax Icon -->
-                          <span>
-                            8521-4691
-                          </span>
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                   <table class="w-full text-sm sm:text-lg text-left rtl:text-right text-gray-500 dark:text-gray-400 mb-8">
@@ -140,7 +129,10 @@ const setStep = (newStep) => {
 
 const contact = ref([
   { office: 'Accounting Office', local: '13', email: 'accounting@arellanolaw.edu', mobile: '0991 978-6813 <br> 0991-781-2781 <br> 0919-095-9425'},
+  { office: 'CLEAR Office', local: '29', email: 'clear@arellanolaw.edu' },
+  { office: 'HR/Records Section', local: '31', email: 'records@arellanolaw.edu' },
   { office: 'Information Technology Center', local: '36', email: 'itc@arellanolaw.edu <br> onlinesupport@arellanolaw.edu' },
+  { office: 'Office of the Legal Aid', local: '23', email: 'ola@arellanolaw.edu' },
 ]);
 
 const searchQuery = ref('');

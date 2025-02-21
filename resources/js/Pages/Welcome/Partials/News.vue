@@ -5,7 +5,7 @@
             <div class="max-w-7xl mx-auto flex flex-col items-center px-5 relative">
             <h1 class="mb-2 font-bold text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">What's in the News</h1>
             <p class="font-normal text-md md:text-lg lg:text-xl mb-8">
-                Read about the latest AUSL Initiatives, Achievements, and Developments
+                Read about the latest Initiatives, Achievements, and Developments
             </p>
             <div class="post-carousel owl-carousel owl-theme">
                 <div v-for="post in posts" class="item">
@@ -47,13 +47,25 @@
       },
       {
         title: 'Bar Review Program',
-        image: '/images/programs/bar_review.jpg',
+        image: '/images/news/ausl.jpg',
         link: 'programs/bar',
         created_at: '2024-09-04',
       },
       {
         title: 'LawPhil',
-        image: '/images/programs/lawphil.jpg',
+        image: '/images/news/lawphil.jpg',
+        link: 'https://www.lawphil.net',
+        created_at: '2024-09-04',
+      },
+      {
+        title: 'Bar Review Program',
+        image: '/images/news/bar.jpg',
+        link: '/bar',
+        created_at: '2024-09-04',
+      },
+      {
+        title: 'MCLE',
+        image: '/images/news/mcle.jpg',
         link: 'https://www.lawphil.net',
         created_at: '2024-09-04',
       },

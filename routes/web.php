@@ -92,6 +92,10 @@ Route::get('contact', function () {
     return Inertia::render('Contact/Index');
 })->name('contact');
 
+Route::get('privacy_policy', function () {
+    return Inertia::render('Privacy/Index');
+})->name('privacy_policy');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

@@ -5,6 +5,7 @@
 /public/hot
 /public/storage
 /public/pdf
+/public/images/offices
 /storage/*.key
 /vendor
 .env

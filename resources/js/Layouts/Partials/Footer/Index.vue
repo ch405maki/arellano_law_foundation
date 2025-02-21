@@ -19,7 +19,8 @@
                     Arellano Law Fovndation
                 </span>
                 <p class="text-sm md:text-sm lg:text-md xl:text-lg">Taft Avenue Corner Menlo Street, Pasay City, Metro Manila, Philippines</p>
-                <p class="text-sm md:text-sm lg:text-md xl:text-lg">Tel. Nos. 8404-30 89 to 93</p>
+                <p class="text-sm md:text-sm lg:text-md xl:text-lg mb-2">Tel. Nos. 8404-30 89 to 93</p>
+                <h1><a :href="route('privacy_policy')" class="text-official-purple-800 text-sm md:text-sm lg:text-md xl:text-lg hover:underline">Privacy Policy</a></h1>
             </div>
             <hr class="my-6 border-official-purple-800 sm:mx-auto dark:border-official-purple-900 lg:my-8" />
             <div class="flex justify-center">

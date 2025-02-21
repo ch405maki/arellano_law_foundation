@@ -24,6 +24,12 @@
 
 const announcements = [
     {
+        title: 'Job Opening: Technical Support Specialist',
+        department: 'Human Resources',
+        datePosted: 'January 28, 2025',
+        content: 'The Arellano Law Foundation is seeking a highly skilled and motivated Technical Support Specialist to join our team. The successful candidate will provide technical assistance and support to our staff and students.'
+    },
+    {
         title: 'ALF Hosts Successful Seminar on Legal Ethics',
         department: 'Human Resources',
         datePosted: 'January 10, 2025',
@@ -42,12 +48,8 @@ const announcements = [
         datePosted: 'January 8, 2025',
         content: 'The Information Technology Center (ITC) has successfully upgraded the network infrastructure, providing faster and more reliable connectivity for all users.'
     },
-    {
-        title: 'Arellano Law Foundation Launches New Scholarship Program',
-        department: 'Human Resources',
-        datePosted: 'January 7, 2025',
-        content: 'The Arellano Law Foundation is proud to announce the launch of its new scholarship program, aimed at supporting deserving law students in their academic pursuits. The program offers a comprehensive package of financial assistance, mentorship, and networking opportunities to help scholars achieve their full potential.'
-    },
+
+
   // Add more announcements here...
 ];
 </script>
