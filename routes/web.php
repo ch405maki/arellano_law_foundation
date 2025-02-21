@@ -59,7 +59,7 @@ Route::prefix('administration')->name('administration.')->group(function () {
     
     Route::get('/lawphil', function(){
         return Inertia::render('Administration/Departments/Index', [
-            'departmentName' => 'LawPhil',
+            'departmentName' => 'LAWPHiL',
         ]);
     })->name('lawphil');
     

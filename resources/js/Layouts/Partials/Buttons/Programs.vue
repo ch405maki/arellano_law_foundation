@@ -21,7 +21,7 @@
         <a  :href="route ('programs.mcle')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">MCLE</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="https://lawphil.net/" target='_blank' class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">LawPhil</a>
+        <a  href="https://lawphil.net/" target='_blank' class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">LAWPHiL</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
         <a  href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Phoenix</a>

@@ -11,7 +11,7 @@
                 <div v-for="post in posts" class="item">
                 <div class="rounded-xs overflow-hidden flex-none max-w-full min-h-[350px] flex flex-col justify-between relative card">
                 <!-- Image wrapper with overlay -->
-                <a href="#" class="block relative group">
+                <a :href="post.link" class="block relative group">
                     <div class="image-wrapper">
                     <img :src="post.image" alt="Post image" class="w-full h-64 object-cover">
                     <!-- Overlay that appears on hover -->
@@ -46,9 +46,9 @@
         created_at: '2024-09-04',
       },
       {
-        title: 'Bar Review Program',
+        title: 'Arellano University School of Law',
         image: '/images/news/ausl.jpg',
-        link: 'programs/bar',
+        link: 'https://alf2.arellanolaw.edu/',
         created_at: '2024-09-04',
       },
       {
@@ -60,13 +60,13 @@
       {
         title: 'Bar Review Program',
         image: '/images/news/bar.jpg',
-        link: '/bar',
+        link: 'programs/bar',
         created_at: '2024-09-04',
       },
       {
         title: 'MCLE',
         image: '/images/news/mcle.jpg',
-        link: 'https://www.lawphil.net',
+        link: 'programs/mcle',
         created_at: '2024-09-04',
       },
   ]

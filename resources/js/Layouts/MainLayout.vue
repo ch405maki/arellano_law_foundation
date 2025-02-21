@@ -14,7 +14,7 @@
         <nav aria-label="Global" class="hidden md:block">
             <ul class="flex items-center gap-6 text-sm">
                 <li><a class="text-white transition hover:text-official-purple-200" href="/"> Home </a></li>
-                <li><a :href="route ('administration.alf')" class="text-white transition hover:text-official-purple-200" href="#"> About </a></li>
+                <li><a :href="route ('administration.alf')" class="text-white transition hover:text-official-purple-200" href="#"> About Us</a></li>
                 <Administration/>
                 <Programs/>
                 <li><a :href="route ('contact')" class="text-white transition hover:text-official-purple-200" href="#"> Contact Us </a></li>

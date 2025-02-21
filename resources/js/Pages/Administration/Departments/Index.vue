@@ -12,7 +12,14 @@
                 <div class="bg-white border-none rounded-lg  mb-6 relative">
                   <div class="bg-white border-none rounded-lg mb-6 relative">
                   <div class="flex flex-row sm:flex-row items-center justify-between mb-6">
-                    
+                    <blockquote v-if="departmentName === 'CLEAR'" class="text-xl italic font-semibold text-gray-900 dark:text-white">
+                        <svg class="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+                            <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+                        </svg>
+                        <h2 class="text-sm md:text-md lg:text-lg xl:text-xl font-normal text-gray-600">
+                          The Center for Legal Education and Research (CLEAR) is Arellano Law Foundation’s dedicated unit towards supporting bar candidates in their preparation for the country’s toughest licensure examination.
+                        </h2>
+                    </blockquote>
                   </div>
                 </div>
                 </div>
@@ -36,6 +43,9 @@
               <hr class="mb-4 border-1 border-official-purple-800">
                   <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-if="departmentName != 'Information Technology Center'">{{ departmentName }} Department</h3>
                   <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-else >{{ departmentName }}</h3>
+              <h2 class="mb-4 text-sm md:text-base lg:text-lg xl:text-lg leading-6 font-medium text-official-purple-900 capitalize">Social Media</h2>
+              <hr class="mb-4 border-1 border-official-purple-800">
+                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-blue-800 mb-8 hover:underline" v-if="departmentName === 'CLEAR'"><a href="https://www.facebook.com/p/Center-for-Legal-Education-and-Research-100063942916347/"><i class="fa-brands fa-facebook"></i> CLEAR Facebook Page</a></h3>
               </div>
               <div class="ml-4">
               <h2 class="text-official-purple-900 text-sm md:text-base lg:text-lg xl:text-lg font-medium mb-4">Related Links</h2>

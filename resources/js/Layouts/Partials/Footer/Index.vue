@@ -20,7 +20,25 @@
                 </span>
                 <p class="text-sm md:text-sm lg:text-md xl:text-lg">Taft Avenue Corner Menlo Street, Pasay City, Metro Manila, Philippines</p>
                 <p class="text-sm md:text-sm lg:text-md xl:text-lg mb-2">Tel. Nos. 8404-30 89 to 93</p>
-                <h1><a :href="route('privacy_policy')" class="text-official-purple-800 text-sm md:text-sm lg:text-md xl:text-lg hover:underline">Privacy Policy</a></h1>
+                <!-- <h1><a :href="route('privacy_policy')" class="text-official-purple-800 text-sm md:text-sm lg:text-md xl:text-lg hover:underline">Privacy Policy</a></h1> -->
+
+                <div class="hidden sm:flex justify-center space-x-4 mt-6 items-center">
+                    <!-- Increase image size and make responsive -->
+                    <a :href="route('privacy_policy')" class="flex-shrink-0">
+                        <img 
+                            src="/images/privacy/registration.jpg" 
+                            alt="Registration" 
+                            class="h-[130px] md:h-[150px] lg:h-[170px] object-cover"
+                        />
+                    </a>
+                    <a :href="route('privacy_policy')" class="flex-shrink-0">
+                        <img 
+                            src="/images/privacy/corseal.png" 
+                            alt="CorSeal" 
+                            class="h-[130px] w-[130px] md:h-[150px] md:w-[150px] lg:h-[170px] lg:w-[170px] object-cover" 
+                        />
+                    </a>
+                </div>
             </div>
             <hr class="my-6 border-official-purple-800 sm:mx-auto dark:border-official-purple-900 lg:my-8" />
             <div class="flex justify-center">

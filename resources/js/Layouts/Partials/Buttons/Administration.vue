@@ -51,8 +51,8 @@
         { name: 'CLEAR', route: route('administration.clear')},
         { name: 'Human Resources', route: route('administration.hr')},
         { name: 'Information Technology Center', route: route('administration.itc')},
-        { name: 'LawPhil', route: route('administration.lawphil')},
-        { name: 'OLA', route: route('administration.ola')},
+        { name: 'LAWPHiL', route: route('administration.lawphil')},
+        { name: 'Office of the Legal Aid (OLA)', route: route('administration.ola')},
         { name: 'Purchasing', route: route('administration.purchasing')},
     ]);
 

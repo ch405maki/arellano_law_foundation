@@ -13,8 +13,8 @@
       
       <div v-for="(item, i) in items" :key="i" class="carousel-item">
         <!-- Wrap the image with an anchor tag for linking -->
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <img :src="item" class="carousel-image object-fit" alt="Carousel Image" />
+        <a :href="item.link" target="_blank" rel="noopener noreferrer">
+          <img :src="item.src" class="carousel-image object-fit" alt="Carousel Image" />
         </a>
       </div>
       
@@ -26,7 +26,21 @@
 <script setup>
 import { ref, onMounted, nextTick } from 'vue';
 
-const items = ['/images/carousel/image1.jpg', '/images/carousel/image2.jpg', '/images/carousel/image3.png'];
+
+const items = [
+  {
+    src: '/images/carousel/image2.jpg',
+    link: 'https://lawphil.net/',
+  },
+  {
+    src: '/images/carousel/image3.png',
+    link: 'programs/mcle',
+  },
+  {
+    src: '/images/carousel/image1.jpg',
+    link: '',
+  },
+]
 
 const fotoramaContainer = ref(null);
 
