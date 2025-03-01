@@ -70,9 +70,8 @@
     { role: 'Assistant Dean, Director for Admission', name: 'Atty. Erik C. Lazo' },
     { role: 'Registrar', name: 'Atty. Roland A. Niedo' },
     { role: 'Assistant Registrar', name: 'Aileen P. Junio' },
-    { role: 'Director, Human Resources/Record', name: 'Baby Amy R. Montealegre' },
     { role: 'Executive Assistant', name: 'Jocelyn L. Doctor' },
-    { role: 'Dean for Student Affairs', name: 'Lorina L. Pascasio' },
+    { role: 'Dean, Office of Student Affairs', name: 'Lorina L. Pascasio' },
     { role: 'Director, Institute for Special Studies', name: 'Atty. Michael Vernon C. Guerrero' },
     { role: 'Legal Admin Officer/Data Privacy Officer', name: 'Atty. Maureen Kay E. Patajo' },
     { role: 'Comptroller', name: 'Atty. Agnes B. Santos' },
@@ -85,9 +84,9 @@
     { role: 'Director, Guidance Office', name: 'Arnulfo V. Lopez' },
     { role: 'Chief Librarian', name: 'Edna L. Pareño' },
     { role: 'Director, The Lawphil Project', name: 'Philipp S. Bautista' },
-    { role: 'HR Supervisor', name: 'Baby Amy R. Montelegre' },
+    { role: 'Human Resources Supervisor', name: 'Baby Amy R. Montelegre' },
     { role: 'Purchasing Head/Officer', name: 'Eduardo C. Villavicencio' },
-    { role: 'AV Supervisor', name: 'Erickson R.Ocampo' },
+    { role: 'Audio Visual Supervisor', name: 'Erickson R.Ocampo' },
   ];  
     
     const isMobile = reactive({ value: window.innerWidth <= 768 });

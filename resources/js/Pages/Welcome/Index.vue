@@ -5,6 +5,7 @@
     <Card />
     <Announcement />
     <News />
+    <RelatedWeb />
 </MainLayout>
 </template>
 
@@ -15,6 +16,7 @@
     import Card from './Partials/Card.vue';
     import Announcement from './Partials/Announcement.vue';
     import News from './Partials/News.vue';
+    import RelatedWeb from './Partials/RelatedWeb.vue';
 
 
 </script>

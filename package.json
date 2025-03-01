@@ -19,6 +19,8 @@
         "vue": "^3.4.0"
     },
     "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^44.2.1",
+        "@ckeditor/ckeditor5-vue": "^7.3.0",
         "@inertiajs/inertia": "^0.11.1",
         "fotorama": "^4.6.4",
         "vue-easy-lightbox": "^1.19.0"

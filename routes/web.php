@@ -1,17 +1,17 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
     return Inertia::render('Welcome/Index');
 });
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
 // Administration
 Route::prefix('administration')->name('administration.')->group(function () {
@@ -95,6 +95,28 @@ Route::get('contact', function () {
 Route::get('privacy_policy', function () {
     return Inertia::render('Privacy/Index');
 })->name('privacy_policy');
+
+
+
+
+##########################################################################################################################
+#############################------------------------Authenticated Area -------------------------------###################
+##########################################################################################################################
+
+
+
+Route::get('/dashboard', function () {
+    return Inertia::render('Authenticated/Dashboard/Index');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/manage_user', [UserController::class, 'index'])->name('manage_user.index');
+});
+
+Route::middleware('auth')->group(function () {
+    Route::get('/post', [PostController::class, 'index'])->name('post.index');
+    Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -4,7 +4,7 @@
     <div class="flex h-12 items-center justify-between">
         <div class="flex-1 md:flex md:items-center md:gap-12">
             <div class="flex items-center gap-4">
-                <a class="block text-teal-600" href="/">
+                <a class="block text-teal-600" href="/login">
                     <ApplicationLogo class="h-8"/>
                 </a>
                 <h1 class="font-times text-sm md:text-base lg:text-lg xl:text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#FFC400] uppercase font-semibold">Arellano Law Fovndation</h1>            </div>
