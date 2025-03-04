@@ -28,14 +28,18 @@
                                             <table class="min-w-full">
                                                 <thead>
                                                     <tr class="bg-gray-50">
-                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Headers </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Title </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Content </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Department </th>
                                                         <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Actions </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="divide-y divide-gray-300 ">
                                                     <!-- Table -->
-                                                    <tr class="bg-white transition-all duration-500 hover:bg-gray-50">
-                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">Data</td>
+                                                    <tr v-for="post in posts" :key="post.id" class="bg-white transition-all duration-500 hover:bg-gray-50">
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{post.title}}</td>
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900" v-html="post.content"></td>
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{post.user.department}}</td>
                                                         <td class="p-4">
                                                             Actions
                                                         </td>
@@ -60,6 +64,10 @@ import { ref, defineProps } from 'vue';
 import { useForm } from '@inertiajs/vue3';
 import axios from 'axios';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+
+const props = defineProps({
+    posts: {type: Array, required: true},
+})
 
 </script>
 

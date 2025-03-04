@@ -7,11 +7,9 @@ use Inertia\Inertia;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\MainController;
 
-Route::get('/', function () {
-    return Inertia::render('Welcome/Index');
-});
-
+Route::get('/', [MainController::class, 'index'])->name('welcome');
 
 // Administration
 Route::prefix('administration')->name('administration.')->group(function () {

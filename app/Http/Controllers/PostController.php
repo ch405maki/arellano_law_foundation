@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
-
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 
 class PostController extends Controller
@@ -12,12 +13,22 @@ class PostController extends Controller
 
     public function index()
     {
-        return Inertia::render('Authenticated/Posts/Index');
+        $posts = Post::with('user')->get();
+
+        return Inertia::render('Authenticated/Posts/Index', [
+            'posts' => $posts,
+        ]);
     }
 
     public function create()
     {
-        return Inertia::render('Authenticated/Posts/Create');
+        // Get the authenticated user's ID
+        $userId = Auth::id();
+
+        // Pass the user ID to the Vue component
+        return Inertia::render('Authenticated/Posts/Create', [
+            'userId' => $userId,
+        ]);
     }
 
     public function store(Request $request)

@@ -11,9 +11,6 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 
-        {{-- ck editor --}}
-        <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/44.2.1/ckeditor5.css" />
-        <script src="https://cdn.ckeditor.com/ckeditor5/44.2.1/ckeditor5.umd.js"></script>
         <!-- Add if you use premium features. -->
         <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5-premium-features/44.2.1/ckeditor5-premium-features.css" />
         <script src="https://cdn.ckeditor.com/ckeditor5-premium-features/44.2.1/ckeditor5-premium-features.umd.js"></script>
@@ -42,5 +39,8 @@
         <!-- Owl Carousel 2 JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+        {{-- NicEdit --}}
+        <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+        <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
     </body>
 </html>
