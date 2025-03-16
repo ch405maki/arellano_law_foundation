@@ -7,7 +7,28 @@
           <div class="flex flex-col md:flex-row justify-between gap-8">
             <!-- Main content section -->
             <section class="w-full lg:w-3/4">
+                <div class="bg-white border-none rounded-lg mb-6 relative">
+              <div class="space-y-6">
+                <!-- Section Heading -->
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-official-purple-900">
+                    Mandatory Continuing Legal Education (MCLE) 
+                </h2>
+
+                <!-- Introductory Paragraph -->
+                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    Pursuant to Supreme Court Bar Matter No. 850, all lawyers must complete at least 36 credit unit hours of continuing legal education seminars every three years. The Foundation is a duly accredited MCLE provider, thus it regularly conducts MCLE seminars for lawyers.
+                </p>
+
+                <!-- Program Details -->
+                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    The Foundation through the Center for Legal Education and Research facilitates the conduct of MCLE.
+                </p>
+              </div>
+            </div>
                 <div class="relative overflow-x-auto">
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-official-purple-900">
+                        Files
+                    </h2>
                     <table class="w-full text-sm text-left text-gray-500 mb-8">
                         <thead class="text-xs text-gray-700 bg-gray-50">
                             <tr>

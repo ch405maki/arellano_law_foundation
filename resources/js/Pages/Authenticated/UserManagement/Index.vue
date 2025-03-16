@@ -5,13 +5,41 @@
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">User Management</h2>
         </template>
-        <div class="flex flex-col min-h-screen bg-gray-100">
+        <div class="flex flex-col  bg-gray-100">
             <main class="flex-grow">
                 <div class="max-w-7xl mx-auto">
-                    <div class="flex flex-col md:flex-row w-full justify-center">
+                    <div class="flex flex-col md:flex-row w-full justify-center px-8">
                         <!-- Main content section -->
-                        <div class="w-full md:w-2/3 p-1">
-                            {{ users }}
+                        <div class="w-full md:w-2/3 mt-2">
+                            <div class="flex flex-col ">
+                                <div class="overflow-x-auto rounded-lg">
+                                    <div class="min-w-full  inline-block align-middle">
+                                        <div class="overflow-hidden">
+                                            <table class="min-w-full">
+                                                <thead>
+                                                    <tr class="bg-gray-50">
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Name </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Email </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Department </th>
+                                                        <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Actions </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="divide-y divide-gray-300 ">
+                                                    <!-- Table -->
+                                                    <tr v-for="user in users" :key="user.id" class="bg-white transition-all duration-500 hover:bg-gray-50">
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{user.name}}</td>
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{user.email}}</td>
+                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{user.department}}</td>
+                                                        <td class="p-4">
+                                                            Actions
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- End main content section -->
 
@@ -154,12 +182,6 @@ const submitForm = async () => {
 </script>
 
 <style scoped>
-.mx-auto.text-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .v-btn {
     width: 100%;
     transition: all 0.3s ease-in-out;
@@ -173,7 +195,4 @@ const submitForm = async () => {
     margin-left: 8px;
 }
 
-.p-4 {
-    padding: 1px;
-}
 </style>

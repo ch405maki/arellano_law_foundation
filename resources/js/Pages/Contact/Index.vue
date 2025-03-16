@@ -132,7 +132,7 @@ const contact = ref([
   { office: 'CLEAR Office', local: '29', email: 'clear@arellanolaw.edu' },
   { office: 'HR/Records Section', local: '31', email: 'records@arellanolaw.edu' },
   { office: 'Information Technology Center', local: '36', email: 'itc@arellanolaw.edu <br> onlinesupport@arellanolaw.edu' },
-  { office: 'Office of the Legal Aid', local: '23', email: 'ola@arellanolaw.edu' },
+  { office: 'Office of the Legal Aid', local: '23', email: 'ola@arellanolaw.edu', mobile: '0928-875-3155' },
 ]);
 
 const searchQuery = ref('');

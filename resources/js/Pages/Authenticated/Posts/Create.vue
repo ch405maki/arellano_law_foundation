@@ -14,9 +14,24 @@
 
               <!-- Form -->
               <form @submit.prevent="submitForm" class="mt-4">
+
+                <div class="mb-4 max-w-xl">
+                  <label for="category" class="block text-sm font-medium text-gray-700 mb-2">Category</label>
+                  <select 
+                    id="category" 
+                    v-model="form.category" 
+                    required 
+                    class="mt-1 block w-full border border-gray-300 rounded-lg p-2"
+                  >
+                    <option value="">Select Category</option>
+                    <option value="Announcement">Announcement</option>
+                    <option value="News">News</option>
+                  </select>
+                </div>
+
                 <!-- Title Input -->
                 <div class="mb-4">
-                  <label for="title" class="block text-sm font-medium text-gray-700">Title</label>
+                  <label for="title" class="block text-sm font-medium text-gray-700 mb-2">Title</label>
                   <input
                     id="title"
                     v-model="form.title"
@@ -26,9 +41,9 @@
                     placeholder="Enter title..."
                   />
                 </div>
-
                 
                 <!-- Content Input with CKEditor -->
+                <label for="title" class="block text-sm font-medium text-gray-700 mb-2">Content</label>
                 <div class="sm:col-span-12 mb-4">
                   <InputLabel for="content" value="Content" />
                   <ckeditor :editor="editor" v-model="form.content" :config="editorConfig"></ckeditor>
@@ -36,7 +51,7 @@
 
                 <!-- Document Input -->
                 <div class="mb-4">
-                  <label for="document" class="block text-sm font-medium text-gray-700">Document (Optional)</label>
+                  <label for="document" class="block text-sm font-medium text-gray-700 mb-2">Document (Optional)</label>
                   <input
                     id="document"
                     v-model="form.document"
@@ -48,7 +63,7 @@
 
                 <!-- Link Input -->
                 <div class="mb-4">
-                  <label for="link" class="block text-sm font-medium text-gray-700">Link (Optional)</label>
+                  <label for="link" class="block text-sm font-medium text-gray-700 mb-2">Link (Optional)</label>
                   <input
                     id="link"
                     v-model="form.link"
@@ -89,6 +104,7 @@ const userId = usePage().props.userId;
 // Form data
 const form = ref({
   title: '',
+  category: '',
   content: '',
   document: '',
   link: '',

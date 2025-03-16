@@ -133,10 +133,10 @@
         alt: 'Judge Joselito D. Vibandor',
     },
     {
-        name: 'Atty. Eric C. Lazo',
+        name: 'Atty. Erik C. Lazo',
         position: 'Trustee',
         image: '/images/administration/board/eLazo.jpg',
-        alt: 'Atty. Eric C. Lazo',
+        alt: 'Atty. Erik C. Lazo',
     },
     {
         name: 'Atty. Arnaldo M. Espinas',

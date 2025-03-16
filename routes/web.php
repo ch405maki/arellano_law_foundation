@@ -37,12 +37,6 @@ Route::prefix('administration')->name('administration.')->group(function () {
         ]);
     })->name('auditing');
     
-    Route::get('/clear', function(){
-        return Inertia::render('Administration/Departments/Index', [
-            'departmentName' => 'CLEAR',
-        ]);
-    })->name('clear');
-    
     Route::get('/hr', function(){
         return Inertia::render('Administration/Departments/Index', [
             'departmentName' => 'Human Resources',
@@ -56,15 +50,15 @@ Route::prefix('administration')->name('administration.')->group(function () {
     })->name('itc');
     
     Route::get('/lawphil', function(){
-        return Inertia::render('Administration/Departments/Index', [
-            'departmentName' => 'LAWPHiL',
-        ]);
+        return Inertia::render('Administration/Departments/Lawphil/Index');
     })->name('lawphil');
-    
+
+    Route::get('/clear', function(){
+        return Inertia::render('Administration/Departments/Clear/Index');
+    })->name('clear');
+
     Route::get('/ola', function(){
-        return Inertia::render('Administration/Departments/Index', [
-            'departmentName' => 'OLA',
-        ]);
+        return Inertia::render('Administration/Departments/Ola/Index');
     })->name('ola');
     
     Route::get('/purchasing', function(){
@@ -83,6 +77,18 @@ Route::prefix('programs')->name('programs.')->group(function () {
     Route::get('/mcle', function () {
         return Inertia::render('Programs/Mcle/Index');
     })->name('mcle');
+
+    Route::get('/phoenix', function () {
+        return Inertia::render('Programs/Phoenix/Index');
+    })->name('phoenix');
+
+    Route::get('/guidance', function () {
+        return Inertia::render('Programs/Guidance/Index');
+    })->name('guidance');
+
+    Route::get('/medical', function () {
+        return Inertia::render('Programs/Medical/Index');
+    })->name('medical');
 });
 
 // Contact
@@ -94,11 +100,14 @@ Route::get('privacy_policy', function () {
     return Inertia::render('Privacy/Index');
 })->name('privacy_policy');
 
+// Posts
+Route::get('/post/show', [MainController::class, 'postShow'])->name('post.show');
+
 
 
 
 ##########################################################################################################################
-#############################------------------------Authenticated Area -------------------------------###################
+#############################------------------------Authenticated Area--------------------------------###################
 ##########################################################################################################################
 
 

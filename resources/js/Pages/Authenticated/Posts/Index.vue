@@ -1,5 +1,5 @@
 <template>
-    <Head title="Staff Management" />
+    <Head title="Posting" />
 
     <AuthenticatedLayout>
         <template #header>
@@ -22,7 +22,7 @@
                         <!-- Content section -->
                         <div class="w-full py-2">
                             <div class="flex flex-col">
-                                <div class=" overflow-x-auto">
+                                <div class="rounded-lg overflow-x-auto">
                                     <div class="min-w-full inline-block align-middle">
                                         <div class="overflow-hidden">
                                             <table class="min-w-full">
@@ -34,11 +34,11 @@
                                                         <th scope="col" class="p-4 text-left text-sm leading-6 font-semibold text-gray-900 capitalize"> Actions </th>
                                                     </tr>
                                                 </thead>
-                                                <tbody class="divide-y divide-gray-300 ">
+                                                <tbody class="divide-y divide-gray-300">
                                                     <!-- Table -->
                                                     <tr v-for="post in posts" :key="post.id" class="bg-white transition-all duration-500 hover:bg-gray-50">
                                                         <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{post.title}}</td>
-                                                        <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900" v-html="post.content"></td>
+                                                        <td class="p-4  text-sm leading-6 font-medium text-gray-900" v-html="post.content.slice(0, 200) + (post.content.length > 200 ? '...' : '')"></td>
                                                         <td class="p-4 whitespace-nowrap text-sm leading-6 font-medium text-gray-900 ">{{post.user.department}}</td>
                                                         <td class="p-4">
                                                             Actions
@@ -64,6 +64,7 @@ import { ref, defineProps } from 'vue';
 import { useForm } from '@inertiajs/vue3';
 import axios from 'axios';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+import { Head } from '@inertiajs/vue3';
 
 const props = defineProps({
     posts: {type: Array, required: true},

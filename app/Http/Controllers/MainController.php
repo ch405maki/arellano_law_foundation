@@ -15,4 +15,9 @@ class MainController extends Controller
         $posts = Post::with('user')->get();
         return Inertia::render('Welcome/Index', [ 'posts' => $posts ]);
     }
+
+    public function postShow()
+    {
+        return Inertia::render('Post/Show');
+    }
 }

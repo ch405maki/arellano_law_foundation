@@ -8,11 +8,11 @@
     import { ref } from 'vue';
 
     const links = ref([
-    { text: 'AUSL', url: 'https://arellanolaw.edu' },
-    { text: 'Bar Review', url: 'programs/bar' },
-    { text: 'Lawphil', url: 'https://lawphil.net/' },
-    { text: 'MCLE', url: 'programs/mcle' },
-    { text: 'Phoenix', url: '#' },
+        { text: 'AUSL', url: 'https://alf2.arellanolaw.edu/' },
+        { text: 'Bar Review', url: '/programs/bar' },
+        { text: 'LawPhil', url: 'https://lawphil.net/' },
+        { text: 'MCLE', url: '/programs/mcle' },
+        { text: 'Phoenix', url: '/programs/phoenix' },
     ]);
 
 </script>

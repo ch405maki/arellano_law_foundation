@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('category');
             $table->text('content');
             $table->string('document')->nullable(); // File path or URL
             $table->string('link')->nullable(); // External link

@@ -8,7 +8,7 @@
         <ul class=" divide-y divide-gray-200">
             <li class="px-6 py-4" v-for="announcement in announcements">
                 <div class="flex justify-between">
-                    <a href="">
+                    <a :href="route('post.show')">
                         <span class="text-gray-800"> Posted By: {{ announcement.department }}</span> <br> 
                         <span class="font-semibold text-lg text-gray-900 hover:text-official-purple-950 hover:underline">{{ announcement.title }}</span></a>
                     <span class="text-gray-500 text-xs">Posted: {{ announcement.datePosted }}</span>

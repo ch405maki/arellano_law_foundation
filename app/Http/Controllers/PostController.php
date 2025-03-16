@@ -36,6 +36,7 @@ class PostController extends Controller
         // Validate the request data
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
+            'category' => 'required|string|max:255',
             'content' => 'required|string',
             'document' => 'nullable|string',
             'link' => 'nullable|string|url',
@@ -68,6 +69,7 @@ class PostController extends Controller
         // Validate the request data
         $validatedData = $request->validate([
             'title' => 'sometimes|string|max:255',
+            'category' => 'sometimes|string',
             'content' => 'sometimes|string',
             'document' => 'nullable|string',
             'link' => 'nullable|string|url',
