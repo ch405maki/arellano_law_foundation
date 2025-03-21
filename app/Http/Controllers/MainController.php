@@ -4,20 +4,28 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Inertia\Response;
 
 use App\Models\Post;
 use App\Models\User;
 
 class MainController extends Controller
 {
-    public function index()
+    public function index(): response
     {
-        $posts = Post::with('user')->get();
-        return Inertia::render('Welcome/Index', [ 'posts' => $posts ]);
+        $announcements = Post::with('user')->latest()->paginate(4);
+    
+        return Inertia::render('Public/Welcome/Index', [
+            'announcements' => $announcements
+        ]);
     }
 
-    public function postShow()
+    public function show($id)
     {
-        return Inertia::render('Post/Show');
+        $announcement = Post::with('user')->findOrFail($id);
+        
+        return Inertia::render('Public/Post/Announcement/Show', [
+            'announcement' => $announcement
+        ]);
     }
 }

@@ -3,7 +3,7 @@
 <MainLayout>
     <Carousel />
     <Card />
-    <Announcement />
+    <Announcement :announcements="announcements" />
     <News />
     <RelatedWeb />
 </MainLayout>
@@ -18,7 +18,9 @@
     import News from './Partials/News.vue';
     import RelatedWeb from './Partials/RelatedWeb.vue';
 
-
+    const props = defineProps({
+    announcements: { type: Array, required: true },
+    });
 </script>
 
 <style>

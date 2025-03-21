@@ -40,9 +40,9 @@
                           Telephone Numbers
                         </td>
                         <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 italic flex items-center">
-                          <i class="mdi mdi-phone mr-1"></i> <!-- MDI Telephone Icon -->
+                          <i class="mdi mdi-phone mr-1"></i>
                           <span>
-                            8404-3089 <br> 8404-3090 <br> 8404-3091
+                            8404-3089 <br> 8404-3090 <br> 8404-3091 <br> 8404-3092 <br> 8404-3093
                           </span>
                         </td>
                       </tr>

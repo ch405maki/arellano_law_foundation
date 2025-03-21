@@ -3,7 +3,7 @@
         <Head title="Board of Trustees" />
         <Header>Board of Trustees</Header>
         <main class="flex-grow">
-            <div class="max-w-6xl mx-auto px-4 py-4 lg:py-8">
+            <div class="max-w-6xl mx-auto px-8 py-4 lg:py-8">
             <div class="flex flex-col md:flex-row justify-between gap-8">
                 <!-- Main content section -->
                 <section class="w-full md:w-3/4 relative">

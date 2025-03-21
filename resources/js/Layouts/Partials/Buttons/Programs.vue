@@ -10,27 +10,27 @@
         </svg>
     </span>
     </button>
-    <ul class="bg-white border rounded-md shadow-lg transform scale-0 group-hover:scale-100 absolute transition duration-300 ease-in-out origin-top min-w-52 mt-2">
+    <ul class="bg-white border rounded-md border-purple-500 shadow-lg transform scale-0 group-hover:scale-100 absolute transition duration-300 ease-in-out origin-top min-w-52 mt-2">
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="https://alf2.arellanolaw.edu/" target="_blank" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">AUSL</a>
+        <a  href="https://alf2.arellanolaw.edu/" target="_blank" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">AUSL</a>
     </li>   
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  :href="route ('programs.bar')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Bar Review</a>
+        <a  :href="route ('programs.bar')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">Bar Review</a>
     </li>   
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  :href="route ('programs.guidance')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Guidance and Counselling</a>
+        <a  :href="route ('programs.guidance')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">Guidance and Counselling</a>
     </li>   
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  :href="route ('programs.mcle')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">MCLE</a>
+        <a  :href="route ('programs.mcle')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">MCLE</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  :href="route ('programs.medical')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Medical Services</a>
+        <a  :href="route ('programs.medical')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">Medical Services</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  href="https://lawphil.net/" target='_blank' class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">LAWPHiL</a>
+        <a  href="https://lawphil.net/" target='_blank' class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">LAWPHiL</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a  :href="route ('programs.phoenix')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Phoenix</a>
+        <a  :href="route ('programs.phoenix')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">Phoenix</a>
     </li>
     </ul>
 </div>
