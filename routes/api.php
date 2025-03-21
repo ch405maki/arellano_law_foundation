@@ -13,6 +13,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // User routes
 Route::post('/users', [UserController::class, 'store']);
+Route::delete('/users/{id}', [UserController::class, 'destroy']);
 
 // Post routes
 Route::resource('posts', PostController::class);

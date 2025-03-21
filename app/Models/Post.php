@@ -21,8 +21,23 @@ class Post extends Model
         'document',
         'link',
         'posted_by',
+        'image',
+        'status', 
+    ];
+    
+    protected $casts = [
+        'image' => 'array',
     ];
 
+    public function setImageAttribute($value)
+    {
+        $this->attributes['image'] = $value ? json_encode($value) : null;
+    }
+
+    public function getImageAttribute($value)
+    {
+        return $value ? json_decode($value, true) : null;
+    }
     /**
      * Get the user who created the post.
      */
