@@ -1,7 +1,7 @@
 <template>
   <MainLayout>
-    <Header>LawPhil Project</Header>
-    <Head title="LawPhil" />
+    <Header> LAWPHiL  Project</Header>
+    <Head title=" LAWPHiL " />
     <main class="flex-grow">
       <div class="max-w-6xl mx-auto px-8 py-4 lg:py-8">
         <div class="flex flex-col md:flex-row justify-between gap-8">
@@ -11,7 +11,7 @@
               <div class="space-y-6">
                 <!-- Section Heading -->
                 <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-official-purple-900">
-                  LawPhil Project
+                  LAWPHiL Project
                 </h2>
 
                 <!-- Introductory Paragraph -->

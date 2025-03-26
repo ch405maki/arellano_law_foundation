@@ -10,9 +10,12 @@
               <div class="bg-white border-none rounded-lg mb-6 relative">
                 <div class="space-y-6">
                   <!-- Section Heading -->
-                  <h2 class="text-2xl md:text-3xl lg:text-2xl font-bold text-official-purple-900">
-                    Center for Legal Education and Research 
-                  </h2>
+                  <div class="flex items-center space-x-2">
+                    <img src="/images/logo/clear.jpg" alt="" class="w-12 h-12 object-cover rounded-lg" />
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-official-purple-900">
+                      Center for Legal Education and Research
+                    </h2>
+                  </div>
 
                   <!-- Introductory Paragraph -->
                   <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">

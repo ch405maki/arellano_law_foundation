@@ -36,7 +36,7 @@ const items = [
     link: 'https://lawphil.net/',
   },
   {
-    src: '/images/carousel/image3.png',
+    src: '/images/carousel/image3.jpg',
     link: 'programs/mcle',
   },
   {
