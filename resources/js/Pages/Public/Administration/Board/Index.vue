@@ -79,16 +79,16 @@
         alt: 'Atty. Gabriel P. Dela Peña',
     },
     {
-        name: 'Atty. Agnes B. Santos',
-        position: 'Treasurer & Trustee',
-        image: '/images/administration/board/agnes.jpg',
-        alt: 'Atty. Agnes B. Santos',
+        name: 'Valente V. Cayco',
+        position: 'Trustee',
+        image: '/images/administration/board/vCayco.jpg',
+        alt: 'Valente V. Cayco',
     },
     {
-        name: 'Dean Domingo M. Navaro',
+        name: 'Atty. Victor Carlo Antonio V. Cayco',
         position: 'Trustee',
-        image: '/images/administration/board/deanNavarro.jpg',
-        alt: 'Dean Domingo M. Navaro',
+        image: '/images/administration/board/aCayco.jpg',
+        alt: 'Atty. Victor Carlo Antonio V. Cayco',
     },
     {
         name: 'Alma C. Curato',
@@ -109,16 +109,40 @@
         alt: 'Atty. Frederick G. Dedace',
     },
     {
-        name: 'Valente V. Cayco',
+        name: 'Atty. Arnaldo M. Espinas',
         position: 'Trustee',
-        image: '/images/administration/board/vCayco.jpg',
-        alt: 'Valente V. Cayco',
+        image: '/images/administration/board/aEspinas.jpg',
+        alt: 'Atty. Arnaldo M. Espinas',
     },
     {
         name: 'Judge Caridad N. Grecia-Cuerdo',
         position: 'Trustee',
         image: '/images/administration/board/cCuerdo.jpg',
         alt: 'Judge Caridad N. Grecia-Cuerdo',
+    },
+    {
+        name: 'Atty. Erik C. Lazo',
+        position: 'Trustee',
+        image: '/images/administration/board/eLazo.jpg',
+        alt: 'Atty. Erik C. Lazo',
+    },
+    {
+        name: 'Dean Domingo M. Navaro',
+        position: 'Trustee',
+        image: '/images/administration/board/deanNavarro.jpg',
+        alt: 'Dean Domingo M. Navaro',
+    },
+    {
+        name: 'Atty. Maureen Kay E. Patajo',
+        position: 'Corporate Secretary',
+        image: '/images/administration/board/mPatajo.jpg',
+        alt: 'Atty. Maureen Kay E. Patajo',
+    },
+    {
+        name: 'Atty. Agnes B. Santos',
+        position: 'Treasurer & Trustee',
+        image: '/images/administration/board/agnes.jpg',
+        alt: 'Atty. Agnes B. Santos',
     },
     {
         name: 'Judge Armando C. Velasco',
@@ -131,30 +155,6 @@
         position: 'Trustee',
         image: '/images/administration/board/jVibandor.jpg',
         alt: 'Judge Joselito D. Vibandor',
-    },
-    {
-        name: 'Atty. Erik C. Lazo',
-        position: 'Trustee',
-        image: '/images/administration/board/eLazo.jpg',
-        alt: 'Atty. Erik C. Lazo',
-    },
-    {
-        name: 'Atty. Arnaldo M. Espinas',
-        position: 'Trustee',
-        image: '/images/administration/board/aEspinas.jpg',
-        alt: 'Atty. Arnaldo M. Espinas',
-    },
-    {
-        name: 'Atty. Victor Carlo Antonio V. Cayco',
-        position: 'Trustee',
-        image: '/images/administration/board/aCayco.jpg',
-        alt: 'Atty. Victor Carlo Antonio V. Cayco',
-    },
-    {
-        name: 'Atty. Maureen Kay E. Patajo',
-        position: 'Corporate Secretary',
-        image: '/images/administration/board/mPatajo.jpg',
-        alt: 'Atty. Maureen Kay E. Patajo',
     }
     ]);
 

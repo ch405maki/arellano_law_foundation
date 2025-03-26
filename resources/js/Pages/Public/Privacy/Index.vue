@@ -114,7 +114,7 @@
   import { Head } from '@inertiajs/vue3';
   import MainLayout from '@/Layouts/MainLayout.vue';
   import VueEasyLightbox from 'vue-easy-lightbox';
-  import Header from '../../Components/Header.vue';
+  import Header from '@/Components/Header.vue';
   
   // Images array for lightbox
   const imageList = [
