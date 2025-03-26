@@ -21,6 +21,9 @@
         <a  :href="route ('programs.guidance')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">Guidance and Counselling</a>
     </li>   
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
+        <a  href="#" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">ISS</a>
+    </li>   
+    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
         <a  :href="route ('programs.mcle')" class="block w-full text-left text-gray-600 hover:text-purple-900 font-normal cursor-pointer">MCLE</a>
     </li>
     <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">

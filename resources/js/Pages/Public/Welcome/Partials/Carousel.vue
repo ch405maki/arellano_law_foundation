@@ -31,22 +31,19 @@ const items = [
     src: '/images/carousel/welcome.jpg',
     link: 'https://lawphil.net/',
   },
-]
-
-// const items = [
-//   {
-//     src: '/images/carousel/image2.jpg',
-//     link: 'https://lawphil.net/',
-//   },
-//   {
-//     src: '/images/carousel/image3.png',
-//     link: 'programs/mcle',
-//   },
-//   {
-//     src: '/images/carousel/image1.jpg',
-//     link: '',
-//   },
-// ]
+  {
+    src: '/images/carousel/image2.jpg',
+    link: 'https://lawphil.net/',
+  },
+  {
+    src: '/images/carousel/image3.png',
+    link: 'programs/mcle',
+  },
+  {
+    src: '/images/carousel/image1.jpg',
+     link: '',
+   },
+ ]
 
 const fotoramaContainer = ref(null);
 
