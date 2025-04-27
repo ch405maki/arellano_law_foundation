@@ -32,15 +32,15 @@ const items = ref([
   },
   {
     image: '/images/programs/iss.jpg',
-    href: 'programs/mcle'
+    href: ''
   },
   {
     image: '/images/programs/ola.jpg',
-    href: 'programs/mcle'
+    href: 'administration/ola'
   },
   {
     image: '/images/programs/phoenix.jpg',
-    href: 'programs/mcle'
+    href: 'programs/phoenix'
   }
 ]);
 

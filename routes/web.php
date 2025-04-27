@@ -24,7 +24,10 @@ Route::prefix('administration')->name('administration.')->group(function () {
     Route::get('/accounting', [AdministrationController::class, 'department'])->name('accounting')->defaults('departmentName', 'Accounting');
     Route::get('/auditing', [AdministrationController::class, 'department'])->name('auditing')->defaults('departmentName', 'Auditing');
     Route::get('/hr', [AdministrationController::class, 'department'])->name('hr')->defaults('departmentName', 'Human Resources');
-    Route::get('/purchasing', [AdministrationController::class, 'department'])->name('purchasing')->defaults('departmentName', 'Purchasing');
+    Route::get('/executive', [AdministrationController::class, 'department'])->name('executive')->defaults('departmentName', 'Office of the Executive Director');
+    Route::get('/generalservices', [AdministrationController::class, 'department'])->name('generalservices')->defaults('departmentName', 'Office of General Services');
+    Route::get('/dpo', [AdministrationController::class, 'department'])->name('dpo')->defaults('departmentName', 'Data Privacy Office');
+    Route::get('/av', [AdministrationController::class, 'department'])->name('av')->defaults('departmentName', 'Audio Visual');
 
     Route::get('/itc', [AdministrationController::class, 'itc'])->name('itc');
     Route::get('/lawphil', [AdministrationController::class, 'lawphil'])->name('lawphil');

@@ -47,13 +47,17 @@
 
     const departments = ref([
         { name: 'Accounting', route: route('administration.accounting')},
+        { name: 'Audio Visual', route: route('administration.av')},
         { name: 'Auditing', route: route('administration.auditing')},
         { name: 'CLEAR', route: route('administration.clear')},
+        { name: 'Data Privacy Office', route: route('administration.dpo')},
+        { name: 'Guidance and Counselling', route: route('programs.guidance')},
         { name: 'Human Resources', route: route('administration.hr')},
         { name: 'Information Technology Center', route: route('administration.itc')},
         { name: 'LAWPHiL', route: route('administration.lawphil')},
+        { name: 'Office of the Executive Director', route: route('administration.executive')},
         { name: 'Office of the Legal Aid (OLA)', route: route('administration.ola')},
-        { name: 'Purchasing', route: route('administration.purchasing')},
+        { name: 'Office of General Services', route: route('administration.generalservices')},
     ]);
 
 </script>

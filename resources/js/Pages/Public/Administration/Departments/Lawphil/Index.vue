@@ -65,7 +65,14 @@
                 </h2>
                 <hr class="mb-4 border-1 border-official-purple-800" />
                 <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8">
-                  LawPhil
+                  LAWPH<span class="italic">i</span> L
+                </h3>
+                <h2 class="mb-4 text-sm md:text-base lg:text-lg xl:text-lg leading-6 font-medium text-official-purple-900 capitalize">
+                  Website Link
+                </h2>
+                <hr class="mb-4 border-1 border-official-purple-800" />
+                <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8">
+                  <a  href="https://lawphil.net/" target='_blank' class="block w-full text-purple-900 font-medium cursor-pointer underline">LAWPH<span class="italic">i</span> L</a>
                 </h3>
               </div>
               <div class="ml-4">

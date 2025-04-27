@@ -1,6 +1,6 @@
 <template>
   <MainLayout>
-    <Header v-if="departmentName != 'Information Technology Center'">{{ departmentName }} Department</Header>
+    <Header v-if="departmentName != 'Information Technology Center'">{{ departmentName }}</Header>
     <Header v-else>{{ departmentName }}</Header>
     <Head title="Departments" />
     <main class="flex-grow">
@@ -33,7 +33,7 @@
                 </div>
               <h2 class="mb-4 text-sm md:text-base lg:text-lg xl:text-lg leading-6 font-medium text-official-purple-900 capitalize">On this page</h2>
               <hr class="mb-4 border-1 border-official-purple-800">
-                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-if="departmentName != 'Information Technology Center'">{{ departmentName }} Department</h3>
+                  <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-if="departmentName != 'Information Technology Center'">{{ departmentName }}</h3>
                   <h3 class="text-sm md:text-base lg:text-lg xl:text-lg font-normal text-gray-800 mb-8" v-else >{{ departmentName }}</h3>
               <h2 class="mb-4 text-sm md:text-base lg:text-lg xl:text-lg leading-6 font-medium text-official-purple-900 capitalize">Social Media</h2>
               <hr class="mb-4 border-1 border-official-purple-800">

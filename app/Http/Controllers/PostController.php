@@ -35,47 +35,47 @@ class PostController extends Controller
     }
 
     public function store(Request $request)
-{
-    // Validate the request data
-    $validatedData = $request->validate([
-        'title' => 'required|string|max:255',
-        'category' => 'required|string|max:255',
-        'content' => 'required|string',
-        'document' => 'nullable|string',
-        'link' => 'nullable|string|url',
-        'posted_by' => 'required|exists:users,id',
-        'images' => 'nullable|array',
-        'images.*' => 'file|max:10240',
-    ]);
+    {
+        // Validate the request data
+        $validatedData = $request->validate([
+            'title' => 'required|string|max:255',
+            'category' => 'required|string|max:255',
+            'content' => 'required|string',
+            'document' => 'nullable|string',
+            'link' => 'nullable|string|url',
+            'posted_by' => 'required|exists:users,id',
+            'images' => 'nullable|array',
+            'images.*' => 'file|max:10240',
+        ]);
 
-    // Handle image uploads
-    $imagePaths = [];
-    if ($request->hasFile('images')) {
-        foreach ($request->file('images') as $image) {
-            // Log the file details for debugging
-            \Log::info('Uploaded file:', [
-                'name' => $image->getClientOriginalName(),
-                'extension' => $image->getClientOriginalExtension(),
-                'mimeType' => $image->getClientMimeType(),
-            ]);
-    
-            $path = $image->store('public/images');
-            $imagePaths[] = Storage::url($path);
+        // Handle image uploads
+        $imagePaths = [];
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $image) {
+                // Log the file details for debugging
+                \Log::info('Uploaded file:', [
+                    'name' => $image->getClientOriginalName(),
+                    'extension' => $image->getClientOriginalExtension(),
+                    'mimeType' => $image->getClientMimeType(),
+                ]);
+        
+                $path = $image->store('public/images');
+                $imagePaths[] = Storage::url($path);
+            }
         }
+
+        // Add image paths to the validated data
+        $validatedData['image'] = $imagePaths;
+
+        // Create the post
+        $post = Post::create($validatedData);
+
+        // Return a JSON response
+        return response()->json([
+            'message' => 'Post created successfully',
+            'post' => $post,
+        ], 201); // 201 Created status code
     }
-
-    // Add image paths to the validated data
-    $validatedData['image'] = $imagePaths;
-
-    // Create the post
-    $post = Post::create($validatedData);
-
-    // Return a JSON response
-    return response()->json([
-        'message' => 'Post created successfully',
-        'post' => $post,
-    ], 201); // 201 Created status code
-}
 
     /**
      * Display the specified post.

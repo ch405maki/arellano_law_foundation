@@ -73,8 +73,8 @@
   
                   <!-- Activities Section -->
                   <div class="space-y-4">
-                    <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
-                      Activities Implemented:
+                    <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-official-purple-900">
+                      To implement the mandate of the office, it is implementing the following activities:
                     </h3>
                     <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       <li>
