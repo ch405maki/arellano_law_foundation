@@ -15,10 +15,10 @@
                   </h2>
   
                   <!-- Introductory Paragraph -->
-                  <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     The Arellano University School of Law is the only law school in the Philippines with a dedicated Guidance and Counseling Center. This office ensures the psychological well-being of students through counseling sessions, psychological testing services, peer counseling, and relevant lecture-seminars such as:
                   </p>
-                  <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <ul class="list-disc list-inside text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     <li>Test Anxiety Management</li>
                     <li>Characteristics of a Successful Law Student</li>
                     <li>Effective Study Habits</li>
@@ -36,7 +36,7 @@
                         <h4 class="text-lg md:text-xl lg:text-2xl font-medium text-official-purple-900 mb-2">
                           Personal
                         </h4>
-                        <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        <ul class="list-disc list-inside text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                           <li>Low Self-Confidence</li>
                           <li>Poor Motivation and Determination</li>
                           <li>Family Problems</li>
@@ -57,7 +57,7 @@
                         <h4 class="text-lg md:text-xl lg:text-2xl font-medium text-official-purple-900 mb-2">
                           Academic
                         </h4>
-                        <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        <ul class="list-disc list-inside text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                           <li>Fear of Examinations (Recitations or Written Exams)</li>
                           <li>Intimidated by “Terror” Professors</li>
                           <li>Poor Reading Comprehension</li>
@@ -76,7 +76,7 @@
                     <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-official-purple-900">
                       To implement the mandate of the office, it is implementing the following activities:
                     </h3>
-                    <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <ul class="list-disc list-inside text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       <li>
                         <strong>Counseling Services (For Law Students and AUSL Employees):</strong>
                         <ul class="list-disc list-inside ml-6">
@@ -140,7 +140,7 @@
                     On this page
                   </h2>
                   <hr class="mb-4 border-1 border-official-purple-800" />
-                  <h3 class="text-base md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Guidance and Counselling Activities</h3>
+                  <h3 class="text-base text-justify md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Guidance and Counselling Activities</h3>
                 </div>
                 <div class="ml-4">
                   <h2 class="text-official-purple-900 text-lg md:text-xl lg:text-2xl font-semibold mb-4">Related Links</h2>

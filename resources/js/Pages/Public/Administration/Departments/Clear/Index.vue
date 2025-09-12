@@ -18,7 +18,7 @@
                   </div>
 
                   <!-- Introductory Paragraph -->
-                  <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     The Center for Legal Education and Research (CLEAR) is Arellano Law Foundation’s dedicated unit towards supporting bar candidates in their preparation for the country’s toughest licensure examination.
                 </p>
                 </div>

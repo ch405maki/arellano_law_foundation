@@ -15,12 +15,12 @@
                 </h2>
 
                 <!-- Introductory Paragraph -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     Pursuant to Supreme Court Bar Matter No. 850, all lawyers must complete at least 36 credit unit hours of continuing legal education seminars every three years. The Foundation is a duly accredited MCLE provider, thus it regularly conducts MCLE seminars for lawyers.
                 </p>
 
                 <!-- Program Details -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     The Foundation through the Center for Legal Education and Research facilitates the conduct of MCLE.
                 </p>
               </div>

@@ -23,7 +23,7 @@
                       </div>
 
                       <!-- Introductory Paragraph -->
-                      <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                         Arellano Law Foundation is a non-profit, non-stock organization established by alumni and faculty members of Arellano University for the purpose of contributing to the upgrading of the standards of the legal profession and to the efficient, fair, and honest administration of justice. Its major project in the attainment of this objective is the operation of Arellano University School of Law.
                       </p>
                     </div>
@@ -34,7 +34,7 @@
                     <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900 mb-4">
                       History
                     </h2>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       Upon its organization in 1978, the Foundation was privileged to have retired Supreme Court Justice Ruperto G. Martin as the first chairman of its Board of Trustees, with Dean Mariano M. Magsalin, Sr. as vice chairman and Arellano University School of Law cum laude graduate, businessman and law practitioner Eliseo P. Ocampo as executive director. Upon his retirement, Justice Martin was replaced by Dean Magsalin Sr. as chairman, who served until his untimely demise in 1992. Arellano University Chairman and President Florentino E. Cayco, Jr. then took over as chairman of the Foundation. In April 1995 Chairman Cayco died and was replaced by Dean Antonio Eduardo B. Nachura, with Paulino F. Cayco as co-chairman. Dean Mariano F. Magsalin, Jr. was appointed executive director of the Foundation, a position he held until 2007. Thereafter, Retired Justice Antonio Eduardo B. Nachura was elected as chairman, Francisco P.V. Cayco as co-chairman and Atty. Gabriel P. dela Peña as executive director. In 2021 at the death of Justice Nachura, he was replaced by Retired Justice Jose C. Reyes Jr. who sits as chairman as present.
                     </p>
                   </div>
@@ -44,7 +44,7 @@
                     <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900 mb-4">
                       Primary Purposes
                     </h2>
-                    <ol class="list-decimal list-inside space-y-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <ol class="list-decimal text-justify list-inside space-y-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       <li>To upgrade the standards of the legal profession by introducing innovative courses, procedures, and practices in the field of legal education, designed and calculated to improve the skills and uplift the motivation of law students, graduates and practitioners, and by engaging in the management, directly or indirectly, of law schools.</li>
                       <li>To contribute to the efficient and honest administration and dispensation of justice through the operation of legal aid clinics and a paralegal service system, through research studies on relevant legislation, jurisprudence, judicial and law-enforcement systems, procedures and practices, and through involvement in selected “public-interest” cases including gross miscarriages of justice.</li>
                       <li>To engage in the publication and / or dissemination of studies, data and information, tract papers, newsletter, reviews and periodicals on or concerning relevant jurisprudence, legislation, administrative orders, rulings, regulations and opinions, and any events or development in the field of law which may be considered of interest and value to the law profession, not only for the purpose of contributing to the enlightenment of the legal profession, but, in proper cases, also for the purpose or providing a forum as a “court of last resort” to serve the ends of justice.</li>
@@ -58,7 +58,7 @@
                     <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900 mb-4">
                       Activities
                     </h2>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       In accordance with these purposes, the Foundation has been accomplishing the following activities:
                     </p>
                     <ul class="list-disc list-inside space-y-2 mt-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
@@ -79,7 +79,7 @@
 
                   <!-- Conclusion -->
                   <div class="mt-8">
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       The Foundation strives to fulfill its mandate in the pursuit of excellence and service for legal education. We highlight some of the functions and activities that have been achieved by the Foundation from past to present.
                     </p>
                   </div>

@@ -15,12 +15,12 @@
                 </h2>
 
                 <!-- Introductory Paragraph -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                   The Phoenix Program is a special program designed for law graduates of Arellano University who need to retake the bar examination or are undergoing a refresher program.
                 </p>
 
                 <!-- Program Details -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                   In this specialized program, graduates are provided with selected seminars aimed at helping them successfully hurdle the bar exam. The program focuses not only on academic preparation but also on other essential aspects of the bar examination, ensuring a holistic approach to success.
                 </p>
               </div>
@@ -35,7 +35,7 @@
                   On this page
                 </h2>
                 <hr class="mb-4 border-1 border-official-purple-800" />
-                <h3 class="text-base md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Phoenix Program</h3>
+                <h3 class="text-base text-justify md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Phoenix Program</h3>
               </div>
               <div class="ml-4">
                 <h2 class="text-official-purple-900 text-lg md:text-xl lg:text-2xl font-semibold mb-4">Related Links</h2>

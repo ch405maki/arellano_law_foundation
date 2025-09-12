@@ -15,7 +15,7 @@
                 </h2>
 
                 <!-- Introductory Paragraph -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                   The ALF/AUSL Clinic, aligned with its aim, provides primary health care services in both medical and dental facets. The clinic ensures the availability of health care services for its mandated clientele, including students, faculty members, employees, and all other members of the ALF/AUSL community.
                 </p>
 
@@ -24,7 +24,7 @@
                   <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                     Services Provided:
                   </h3>
-                  <ol class="list-decimal list-inside space-y-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <ol class="list-decimal list-inside space-y-4 text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     <li>
                       <strong>Providing medical consultation and primary health care treatment, including but not limited to:</strong>
                       <ul class="list-disc list-inside ml-6">
@@ -84,7 +84,7 @@
                   On this page
                 </h2>
                 <hr class="mb-4 border-1 border-official-purple-800" />
-                <h3 class="text-base md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Medical Services</h3>
+                <h3 class="text-base text-justify md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Medical Services</h3>
               </div>
               <div class="ml-4">
                 <h2 class="text-official-purple-900 text-lg md:text-xl lg:text-2xl font-semibold mb-4">Related Links</h2>

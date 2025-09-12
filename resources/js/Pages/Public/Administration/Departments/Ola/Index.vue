@@ -15,7 +15,7 @@
                   </h2>
   
                   <!-- Introductory Paragraph -->
-                  <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     The Office of the Legal Aid (OLA) was created in 1999 after the Supreme Court approved the Clinical Legal Education Program (CLEP) of the school.
                   </p>
   
@@ -24,7 +24,7 @@
                     <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                       Main Goals of the Office:
                     </h3>
-                    <ol class="list-decimal list-inside space-y-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <ol class="list-decimal text-justify list-inside space-y-4 text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       <li>
                         To provide free quality legal services to indigent clients in adjoining communities.
                       </li>
@@ -48,7 +48,7 @@
                     <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                       Location:
                     </h3>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       The Office of the Legal Aid is located at the Ground Floor, Heilbronn Hall, Arellano University School of Law, Donada Street, Pasay City.
                     </p>
                   </div>
@@ -58,16 +58,16 @@
                     <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                       Achievements:
                     </h3>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       The Office of the Legal Aid continues to provide free legal assistance to indigents and also spearheads the supervision of the new Supreme Court requirement, the Clinical Legal Education Program (CLEP).
                     </p>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       For the years 2022 and 2023, the OLA, together with its supervising lawyers and CLEP interns, successfully resolved twenty (20) cases within Metro Manila. Cases of our clients were either dismissed, acquitted, compromised, or founded on a lesser offense.
                     </p>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       In addition to the cases handled, the Office has assisted and provided legal advice to 60 walk-in clients.
                     </p>
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                       Furthermore, the Office is responsible for handling the compliance of the CLEP requirements of the Law School. For the academic year 2022-2023, the Office assisted in filing, certification, and oath-taking for 1,206 students enrolled in CLEP 1 and 2.
                     </p>
                   </div>

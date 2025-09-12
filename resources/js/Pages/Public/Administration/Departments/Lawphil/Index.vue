@@ -15,7 +15,7 @@
                 </h2>
 
                 <!-- Introductory Paragraph -->
-                <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                   Lawphil is a legal indexing and database gathering project that seeks to provide ready access to an effective, comprehensive, dependable, and affordable website with free online legal research services. It serves students, attorneys, legal researchers, and anyone interested in the law in the Philippines and around the world.
                 </p>
 
@@ -24,7 +24,7 @@
                   <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                     Key Features:
                   </h3>
-                  <ul class="list-disc list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <ul class="list-disc text-justify list-inside text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     <li>Comprehensive legal database for Philippine laws and jurisprudence.</li>
                     <li>Free and accessible online legal research services.</li>
                     <li>User-friendly interface for students, attorneys, and legal researchers.</li>
@@ -38,7 +38,7 @@
                   <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900">
                     Mission:
                   </h3>
-                  <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                  <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                     The LawPhil Project aims to democratize access to legal information by providing a reliable and free platform for legal research. It empowers individuals and professionals alike to navigate the complexities of the law with ease and confidence.
                   </p>
                 </div>

@@ -18,17 +18,17 @@
                       </h2>
 
                       <!-- Introductory Paragraph -->
-                      <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                         Since the onset of the pandemic in the year 2020, the CLEAR Office, with the support of the ALF, has developed and is in the process of continuously improving its Learning Management System, the <strong>“iChief”</strong>. This platform is primarily used for the Arellano Bar Review Program (ABRP). It is hoped that in the future, after addressing all the requirements of the MCLE Office, it will also be utilized for conducting MCLE Seminars.
                       </p>
 
                       <!-- Bar Materials Paragraph -->
-                      <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                         The CLEAR Office takes pride in the bar materials prepared by our dynamic student volunteers of the Bar Operations Commission. In fact, during the 2023 Bar Examinations, our <strong>Pre-Week Notes</strong> and <strong>Last Minute Tips</strong> achieved a success rate of at least <strong>95%</strong>, making our Bar Review Materials highly sought-after and considered “bar hot commodities.”
                       </p>
 
                       <!-- Last Minute Lectures Paragraph -->
-                      <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
                         Additionally, <strong>Last Minute Lectures</strong> were streamed and made open to the public on the official Facebook Account of the Arellano Law School. These lectures were accessible to bar candidates nationwide, free of charge. This initiative demonstrates the commitment of Arellano University, the Arellano Law School, and the ALF to level the playing field and support bar candidates in their pursuit of becoming lawyers—for the love of God and country.
                       </p>
                     </div>
@@ -125,7 +125,7 @@
                         </summary>
 
 
-                        <div class="pb-6 mt-8 space-y-4 text-gray-800 text-base font-normal leading-relaxed">
+                        <div class="pb-6 mt-8 space-y-4 text-gray-800 text-base text-justify font-normal leading-relaxed">
                           <p class="text-center font-bold text-lg">PRIVACY POLICY</p>
                           <hr class="border-t-2 border-official-purple-800">
                           <p class="text-center font-bold text-lg">ARELLANO LAW FOUNDATION PRIVACY POLICY FOR<br>BAR REVIEW PROGRAM and PROJECT PHOENIX</p>

@@ -18,8 +18,8 @@
                   </div>
                   
                     <!-- Introductory Paragraph -->
-                    <p class="text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
-                        Information Technology Center provides diverse set of technology services in support of both academic and administrative operations of AUSL. These are the development, monitoring, and maintenance of the campus data, network, websites and computer laboratory operations of the school.                  
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        Information Technology Center provides diverse set of technology services in support of both academic and administrative operations of AUSL. These are the development, monitoring, and maintenance of the campus data, network, websites.                  
                     </p>
                 </div>
               </div>

@@ -26,7 +26,7 @@
               :key="index" 
               :src="img" 
               alt="Announcement Image" 
-              class="w-full h-60 object-cover shadow-md hover:cursor-zoom-in"
+              class="w-full h-full object-cover shadow-md hover:cursor-zoom-in"
               @click="showLightbox(img, index)"
             />
           </div>
