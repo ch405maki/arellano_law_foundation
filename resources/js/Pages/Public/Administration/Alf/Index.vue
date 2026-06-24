@@ -39,6 +39,29 @@
                     </p>
                   </div>
 
+                  <div class="mt-8 space-y-4">
+                    <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900 mb-4">
+                      Mission and Vision
+                    </h2>
+                    <div>
+                      <h1 class="text-sm md:text-lg lg:text-xl font-semibold text-official-purple-900 mb-4">Mission Statement</h1>
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        We are an institution dedicated to developing individuals to become committed advocates of the law, making them responsive to the needs of the global community and able to provide specialized legal services.
+                        <br>We shall promote respect for the rule of law, attainment of justice, protection of human rights and the environment, and render service to those who need it."
+                      </p>
+                    </div>
+                    <div>
+                      <h1 class="text-sm md:text-lg lg:text-xl font-semibold text-official-purple-900 mb-4">Vision Statement</h1>
+                      <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        We shall be the premier seat of specialized legal education, and institutionalized legal research programs, responsive and attuned to the demands of the times, with the objective of contributing to the efficient, speedy and honest dispensation and administration of justice.
+                        <br>
+                        We shall be a globally competitive institution that harnesses world-class, state-of-the-art technologies and methodologies.
+                        <br>
+                        We shall be uncompromising in our efforts to integrate values and ethics in our endeavors, consistent with the avowed goals and ideals of Arellano University to provide quality holistic education.
+                      </p>
+                    </div>
+                  </div>
+
                   <!-- Purposes Section -->
                   <div class="mt-8">
                     <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-official-purple-900 mb-4">
@@ -128,9 +151,6 @@ import RelatedLinks from '../Components/RelatedLinks.vue';
   margin-top: 1.5rem;
 }
 
-.space-y-4 > * + * {
-  margin-top: 1rem;
-}
 
 .space-y-2 > * + * {
   margin-top: 0.5rem;

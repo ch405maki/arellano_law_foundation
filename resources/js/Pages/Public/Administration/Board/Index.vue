@@ -10,13 +10,6 @@
                 <div>
                 <div class="text-slate-600 leading-relaxed mb-8">
                     <div v-for="(member, index) in boardMembers" :key="index" class="flex flex-col sm:flex-row items-center mb-8">
-                    <!-- Image -->
-                    <div class="flex-shrink-0 sm:mb-0 sm:mr-6 mb-2">
-                        <Link class="flex items-center">
-                        <img :src="member.image" :alt="member.alt"
-                            class="max-w-full h-full max-h-28 transition-transform duration-300 transform hover:scale-105">
-                        </Link>
-                    </div>
                     <!-- Text -->
                     <div>
                         <div class="uppercase font-bold text-sm md:text-base lg:text-lg xl:text-xl tracking-wide leading-tight">{{ member.name }}</div>

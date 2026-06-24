@@ -41,20 +41,27 @@
                 Program
               </h2>
               <div class="mb-8 relative">
-                <div class="flex flex-wrap gap-4 justify-between">
+                <div class="flex flex-wrap gap-4">
                   <!-- First Image -->
                   <img
-                    src="/images/academic/online_bar_review_program_2.jpg"
-                    class="w-full sm:w-[48%] object-cover cursor-pointer"
+                    src="/images/academic/2026_roster_of_lecturer.jpg"
+                    class="w-full sm:w-[calc(33.333%-0.75rem)] object-cover cursor-pointer"
                     alt="Carousel Image 1"
                     @click="openLightbox(0)"
                   />
                   <!-- Second Image -->
                   <img
-                    src="/images/academic/online_bar_review_program_1.jpg"
-                    class="w-full sm:w-[48%] object-cover cursor-pointer"
+                    src="/images/academic/bar_review_program_1.jpg"
+                    class="w-full sm:w-[calc(33.333%-0.75rem)] object-cover cursor-pointer"
                     alt="Carousel Image 2"
                     @click="openLightbox(1)"
+                  />
+                  <!-- Third Image -->
+                  <img
+                    src="/images/academic/bar_review_program_2.jpg"
+                    class="w-full sm:w-[calc(33.333%-0.75rem)] object-cover cursor-pointer"
+                    alt="Carousel Image 3"
+                    @click="openLightbox(2)"
                   />
                 </div>
               </div>
@@ -75,8 +82,11 @@
                         <li>
                           Click
                           <div class="flex flex-row sm:flex-row items-center justify-between my-6 ">
-                            <a href="https://clear.arellanolaw.org/product/pre-bar-review-2025/" title="Click Here">
-                              <img src="/images/academic/online_bar_review_2025.jpg" class="carousel-image object-fit sm:w-[88%] transform transition-transform duration-300 hover:scale-105" alt="Carousel Image" />
+                            <a href="https://clear.arellanolaw.org/product/pre-bar-review-2026/" title="Click Here">
+                              <img src="/images/academic/online_bar_review_2026.jpg" class="carousel-image object-fit sm:w-[88%] transform transition-transform duration-300 hover:scale-105" alt="Carousel Image" />
+                            </a>
+                            <a href="https://clear.arellanolaw.org/product/pre-week-2026/" title="Click Here">
+                              <img src="/images/academic/pre_week.webp" class="carousel-image object-fit sm:w-[88%] transform transition-transform duration-300 hover:scale-105" alt="Carousel Image" />
                             </a>
                           </div>
                         </li>
@@ -207,8 +217,9 @@
 
   // Images array for the lightbox
   const images = [
-    "/images/academic/online_bar_review_program_2.jpg",
-    "/images/academic/online_bar_review_program_1.jpg",
+    "/images/academic/2026_roster_of_lecturer.jpg",
+    "/images/academic/bar_review_program_1.jpg",
+    "/images/academic/bar_review_program_2.jpg",
   ];
 
   // Open lightbox function

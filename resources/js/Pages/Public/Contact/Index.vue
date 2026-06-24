@@ -39,7 +39,7 @@
                         <td class="py-2 text-gray-600">
                           Telephone Numbers
                         </td>
-                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 italic flex items-center">
+                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 flex items-center">
                           <i class="mdi mdi-phone mr-1"></i>
                           <span>
                             8404-3089 <br> 8404-3090 <br> 8404-3091 <br> 8404-3092 <br> 8404-3093
@@ -65,17 +65,17 @@
                         <td class="py-2 font-normal text-gray-600">
                           {{ item.office }}
                           <br />
-                          <p class="italic font-normal hover:underline flex items-center">
+                          <p class="font-normal text-sm hover:underline flex items-center">
                             <span v-if="item.email">
-                              <i class="mdi mdi-email mr-1"></i>
+                              <i class="mdi mdi-email "></i>
                             </span>
                             <span v-html="item.email"></span>
                           </p>
                         </td>
-                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 italic">
+                        <td class="py-2 font-normal text-gray-600 text-official-purple-900">
                           <span v-html="item.local"></span>
                         </td>
-                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 italic flex items-center">
+                        <td class="py-2 ml-2 font-normal text-gray-600 text-official-purple-900 flex items-center">
                           <i class="mdi mdi-phone mr-1" v-if="item.mobile"></i>
                           <span v-if="item.mobile" v-html="item.mobile"></span>
                         </td>
@@ -130,7 +130,7 @@ const setStep = (newStep) => {
 const contact = ref([
   { office: 'Accounting Office', local: '13', email: 'accounting@arellanolaw.edu', mobile: '0991 978-6813 <br> 0991-781-2781 <br> 0919-095-9425'},
   { office: 'CLEAR Office', local: '29', email: 'clear@arellanolaw.edu' },
-  { office: 'HR/Records Section', local: '31', email: 'records@arellanolaw.edu' },
+  { office: 'HR/Records Section', local: '31', email: 'hrd@arellanolaw.edu' },
   { office: 'Information Technology Center', local: '36', email: 'itc@arellanolaw.edu <br> onlinesupport@arellanolaw.edu' },
   { office: 'LawPhil', local: '', email: 'lawphil@arellanolaw.edu', mobile: '' },
   { office: 'Office of the Legal Aid', local: '23', email: 'ola@arellanolaw.edu', mobile: '0928-875-3155' },

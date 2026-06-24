@@ -19,7 +19,20 @@
                   
                     <!-- Introductory Paragraph -->
                     <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
-                        Information Technology Center provides diverse set of technology services in support of both academic and administrative operations of AUSL. These are the development, monitoring, and maintenance of the campus data, network, websites.                  
+                        IT Center provides diverse set of technology services in support of both academic and administrative operations of ALF/AUSL. It is responsible for managing and maintaining the institution’s information and communication technology infrastructure. It supports teaching, learning, and administrative operations by ensuring reliable internet access, maintaining hardware
+                        and software systems, providing technical support, managing student and faculty informationsystems, and promoting the safe and effective use of educational technology.
+                    </p>
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        The department has two sections composed of the following and its duties:
+                        Systems and Web Development is responsible for designing, developing, and maintaining the school’s internal systems and websites. It creates and maintains customized software solutions to support academic and administrative processes, ensures system security and efficiency, and manages updates and enhancements to the school’s web platforms for better accessibility and user
+                        experience.
+                    </p>
+                    <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+                        Technical and Maintenance responsible for the installation, repair, and upkeep of all IT-related
+                        equipment and systems. This includes maintaining computers, networks, printers, and classroom
+                        technologies; providing technical support to users; ensuring system functionality; and performing
+                        routine checks to prevent hardware and software issues. The team ensures that the school's digital
+                        infrastructure runs smoothly and reliably.
                     </p>
                 </div>
               </div>
