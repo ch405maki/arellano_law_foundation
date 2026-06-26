@@ -23,7 +23,7 @@
                         and software systems, providing technical support, managing student and faculty informationsystems, and promoting the safe and effective use of educational technology.
                     </p>
                     <p class="text-base text-justify md:text-lg lg:text-lg text-gray-700 leading-relaxed">
-                        The department has two sections composed of the following and its duties:
+                        The department has two sections composed of the following and its duties: <br />
                         Systems and Web Development is responsible for designing, developing, and maintaining the school’s internal systems and websites. It creates and maintains customized software solutions to support academic and administrative processes, ensures system security and efficiency, and manages updates and enhancements to the school’s web platforms for better accessibility and user
                         experience.
                     </p>

@@ -1,7 +1,7 @@
 <template>
     <MainLayout>
-      <Head title="Guidance and Counselling Activities" />
-      <Header>Guidance and Counselling Activities</Header>
+      <Head title="Guidance and Counseling Activities" />
+      <Header>Guidance and Counseling Activities</Header>
       <main class="flex-grow">
         <div class="max-w-6xl mx-auto px-8 py-4 lg:py-8">
           <div class="flex flex-col md:flex-row justify-between gap-8">
@@ -11,7 +11,7 @@
                 <div class="space-y-6">
                   <!-- Section Heading -->
                   <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-official-purple-900">
-                    Guidance and Counselling Activities
+                    Guidance and Counseling Activities
                   </h2>
   
                   <!-- Introductory Paragraph -->
@@ -140,7 +140,7 @@
                     On this page
                   </h2>
                   <hr class="mb-4 border-1 border-official-purple-800" />
-                  <h3 class="text-base text-justify md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Guidance and Counselling Activities</h3>
+                  <h3 class="text-base text-justify md:text-lg lg:text-lg font-normal text-gray-800 mb-8">Guidance and Counseling Activities</h3>
                 </div>
                 <div class="ml-4">
                   <h2 class="text-official-purple-900 text-lg md:text-xl lg:text-2xl font-semibold mb-4">Related Links</h2>
